@@ -32,8 +32,3 @@ node_modules
 
 #IDE
 /.idea/
-
-# Test
-
-# Logs
-npm-debug.log*
