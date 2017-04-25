@@ -28,6 +28,7 @@ keystone.init({
 		extname: '.hbs',
 	}).engine,
 
+	'session store': 'connect-mongo',
 	'auto update': true,
 	'session': true,
 	'auth': true,
