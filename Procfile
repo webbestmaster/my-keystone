@@ -1,1 +1,1 @@
-web: COOKIE_SECRET=werwerwererw MONGODB_URI=mongodb://heroku_ql9gmj53:vdatcg83dbe94dmn5hqscab7m8@ds117271.mlab.com:17271/heroku_ql9gmj53 node keystone.js
+web: CLOUDINARY_URL=cloudinary://834913238274823:sqddStH24jdfde130YywaTjX0x4@du7nae0ez COOKIE_SECRET=werwerwererw MONGODB_URI=mongodb://heroku_ql9gmj53:vdatcg83dbe94dmn5hqscab7m8@ds117271.mlab.com:17271/heroku_ql9gmj53 node keystone.js
