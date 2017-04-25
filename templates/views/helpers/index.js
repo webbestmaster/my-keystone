@@ -202,6 +202,12 @@ module.exports = function () {
 		return '/blog?page=' + pageNumber;
 	};
 
+	// might be a ghost helper
+	// used for pagination urls on product
+	_helpers.productUrl = function (productSlug, options) {
+		return '/products/' + productSlug;
+	};
+
 	// create the category url for a blog-category page
 	_helpers.categoryUrl = function (categorySlug, options) {
 		return ('/blog/' + categorySlug);
