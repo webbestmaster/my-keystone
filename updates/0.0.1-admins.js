@@ -7,15 +7,23 @@
  * module.exports = function(done) { ... }
  */
 
-/*
 exports.create = {
 	User: [
-		{ 'name.first': 'Admin', 'name.last': 'User', 'email': 'user@keystonejs.com', 'password': 'admin', 'isAdmin': true },
-	],
+		{ 'name.first': 'Admin', 'name.last': 'User', 'email': 'user@keystonejs.com', 'password': 'admin', 'isAdmin': true }
+	]
 };
-*/
 
-
+console.log('!!!!!')
+console.log('!!!!!')
+console.log('!!!!!')
+console.log('!!!!!')
+console.log('!!!!!')
+console.log('!!!!!')
+console.log('!!!!!')
+console.log('!!!!!')
+console.log('!!!!!')
+console.log('!!!!!')
+console.log('!!!!!')
 
 // This is the long-hand version of the functionality above:
 
