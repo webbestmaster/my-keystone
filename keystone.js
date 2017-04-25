@@ -61,4 +61,8 @@ keystone.set('nav', {
 // Start Keystone to connect to your database and initialise the web server
 
 keystone.start();
-require('./updates/0.0.1-admins');
+
+
+setTimeout(function () {
+	require('./updates/0.0.1-admins');
+}, 10e3)
