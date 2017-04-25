@@ -36,6 +36,7 @@ keystone.init({
 
 // Load your project's Models
 keystone.import('models');
+require('./updates/0.0.1-admins');
 
 // Setup common locals for your templates. The following are required for the
 // bundled templates and layouts. Any runtime locals (that should be set uniquely
