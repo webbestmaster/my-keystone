@@ -1,4 +1,0 @@
-about heroku
-https://gist.github.com/vitalbone/e49650000dcd005cac48
-
-
