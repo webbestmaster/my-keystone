@@ -9,7 +9,8 @@
 
 exports.create = {
 	User: [
-		{ 'name.first': 'Admin', 'name.last': 'User', 'email': 'user@keystonejs.com', 'password': 'admin', 'isAdmin': true }
+		{ 'name.first': 'Admin', 'name.last': 'User', 'email': 'user@keystonejs.com', 'password': 'admin', 'isAdmin': true },
+		{ 'name.first': 'Admin1', 'name.last': 'User1', 'email': 'admin@keystonejs.com', 'password': 'adminadmin', 'isAdmin': true }
 	]
 };
 
@@ -32,7 +33,8 @@ var async = require('async');
 var User = keystone.list('User');
 
 var admins = [
-	{ email: 'user@keystonejs.com', password: 'admin', name: { first: 'Admin', last: 'User' } }
+	{ email: 'user@keystonejs.com', password: 'admin', name: { first: 'Admin', last: 'User' } },
+	{ email: 'admin@keystonejs.com', password: 'adminadmin', name: { first: 'Admin1', last: 'User1' } }
 ];
 
 function createAdmin (admin, done) {
