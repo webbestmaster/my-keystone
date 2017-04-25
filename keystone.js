@@ -33,6 +33,7 @@ keystone.init({
 	'session': true,
 	'auth': true,
 	'user model': 'User',
+	'cookie signin': true
 });
 
 // Load your project's Models
