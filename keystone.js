@@ -60,7 +60,6 @@ keystone.set('nav', {
 });
 
 // Start Keystone to connect to your database and initialise the web server
-
-
+require('./updates/0.0.1-admins');
 
 keystone.start();
